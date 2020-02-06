@@ -1,0 +1,79 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+
+
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+h1 {
+    z-index: 2;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+ul {
+    z-index: 2;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+li {
+    z-index: 2;
+    margin: 50px;
+    text-align: end;
+list-style: none;
+}
+
+img,
+iframe {
+    z-index: 2;
+    display: block;
+    width: 450px;
+}
+
+
+
+
+.background {
+    z-index: 3;
+    position: fixed;
+    /*    display: flex;*/
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    /*background-image: url(../photography/000014.jpg);*/
+    font-size: 10px;
+    text-align: center;
+    color: white;
+
+
+    font-family: 'Cormorant Garamond', serif;
+
+
+}
+
+.tree {
+    margin: 10px ;
+}
+
+.background > p {
+    margin: 0px;
+}
