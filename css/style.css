@@ -11,13 +11,21 @@ width: 883px;
 }
 
 .first {
-    background-image:url(../photography/first_background.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
+
     background-position: right;
     font-size: 80px;
     color: black;
     font-family: 'Lato', sans-serif;
+    animation: ani 3s ease-in infinite;
+}
+@keyframes ani{
+    0%{
+    }
+    95%{
+          background-image:url(../photography/first_background.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    }
 }
 
 p {
@@ -30,12 +38,22 @@ p {
 }
 
 h1 {
+    position: relative;
     z-index: 2;
-    font-size: 80px;
+                font-size: 80px;
     font-family: 'Lato', sans-serif;
     margin: 30px;
+    animation: hani 0.8s ease-in;
 }
+@keyframes hani{
+    0%{
+        font-size: 30px;
+    }
+    100%{
+            font-size: 80px;
 
+    }
+}
 ul {
     z-index: 2;
     font-family: 'Julius Sans One', sans-serif;
